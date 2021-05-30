@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #header {
+        border-bottom: 1px solid black;
+      }
+      #logo {
+        display: inline-block;
+        height: 100px;
+        width: 20%;
+        background-image: url("sample3.1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      #circle {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+      }
+      #text1 {
+        height: auto;
+        width: auto;
+        display: inline-block;
+        position: absolute;
+        font-size: 1.5rem;
+        color:rgb(48, 48, 182);
+        left:50%;
+      }
+      #text2{
+          display: inline-block;
+          position:absolute;
+          overflow-x: auto;
+          top:65px;
+          left:15%;
+      }
+      #text2 div{
+          display: inline-block;
+          font-size: 3rem;
+          color: rgb(16, 16, 155); 
+          text-align: center;
+          font-weight: bold;
+          margin-left:50px;
+      }
+      nav div {
+          display: inline-block;
+          height:4vh;
+          width:10vw;
+          border:1.5px solid rgb(55, 141, 212);
+          background-color: rgb(85, 184, 241);
+          opacity: 0.8;
+          margin:8px;
+          text-align: center;
+      }
+      #winners h1{
+          font-size: 2.5em;
+          margin: 8px;
+      }
+      #winners{
+          width:60%;
+          height: auto;
+      }
+      aside{
+          height: 60vh;
+          width: 35%;
+          display: inline-block;
+          float: right;
+          border: 4px solid blue;
+          border-radius: 30px 0px 0px 30px;
+          border-right: none;
+
+      }
+      u{
+          color: blue;
+      }
+      #c1 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image: url("https://images.unsplash.com/photo-1476950648868-16c7dca9499c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      #c2 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image: url("https://thumbs.dreamstime.com/b/sad-child-looking-out-window-toning-photo-falling-snow-65233442.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      #c3 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://www.bankrate.com/2019/05/28143155/Should-your-child-hav-a-savings-account.jpg?auto=webp&optimize=high&crop=16:9");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #f1 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://thumbs.dreamstime.com/b/spring-flowers-blue-crocuses-drops-water-backgro-background-tracks-rain-113784722.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #f2 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0GgxpePcXffjgjKfV2W4I7bhnc6IsV_F6A&usqp=CAU");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #f3 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRQXg_k-XJfGpqNpavso-aDCMVLJD9Pg-Cw&usqp=CAU");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #a1 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBPdFHPaGebRk1P-UaSRoamb_qhx-ajvqIKA&usqp=CAU");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #a2 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzpeocx-X-AF0_Hs20J8PlE-_2vZIqM7sUw&usqp=CAU");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      #a3 {
+          display:inline-block;
+          height:127px;
+          width: 190px;
+          background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcwkZNIfNDJkgFBO1BydrJeRMgsHI2jv48zw&usqp=CAU");
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <div id="circle"></div>
+        <div id="text1">
+          Advice and News from the World of Digital Photography
+        <hr>
+        </div>
+        
+        <div id="text2">
+            
+            <div id="tips">TIPS </div>
+            <div id="contest"> CONTEST </div>
+            <div id="glossary"> GLOSSARY</div>
+            </h1>
+        </div>
+      </div>
+    </div>
+    <nav>
+        <div id="navitem1"><a href="#">Home</a></div>
+        <div id="navitem2"><a href="Task2.1.html">Tips</a></div>
+        <div id="navitem3"><a href="Task2.2.html">Contest</a></div>
+        <div id="navitem4"><a href="Task2.3.html">Glossary</a></div>
+    </nav>
+    <main>
+        <aside id="categories"> <h2 style="color:blue"> &nbsp; Next Month's Contest Categories</h2><hr>
+        <ul>
+            <li>Animal Photos</li>
+            <li>Nighttime Photos</li>
+            <li>Sports Photos</li>
+        </ul>
+        <p>Please submit your entries to <u>Gerry Hayward</u> . Include your name,
+            the photo category , and the photo settings. JPEG photos only.
+        </p>
+        <p><h4>Attention:</h4>Our friends at <u>BetterPhoto.com</u> are having their annual photo contest. Please take this
+        opportunity to submit your work to their editors.</p>
+    
+    </aside>
+        <section id="winners">
+            <h1>Contest Winners</h1>
+            <p>Here are the result for this month's contest in the categories
+                of Child Photos, FLowers Photos  , ans Scenic Photos. I received hundreds of entries and it was difficulty
+            to narrow the entries down to three in each category . Thanks to all who participated this month. 
+         </p>
+         <p>Here are the result for this month's contest in the categories
+            of Child Photos, FLowers Photos  , ans Scenic Photos. I received hundreds of entries and it was difficulty
+        to narrow the entries down to three in each category . Thanks to all who participated this month. 
+     </p>
+     <u>Child Photos</u>
+     <div id="childphotos">
+      <span id="c1"></span>
+      <span id="c2"></span>
+      <span id="c3"></span>
+      </div>
+      <u>Flowers</u>
+      <div id="childphotos">
+       <span id="f1"></span>
+       <span id="f2"></span>
+       <span id="f3"></span>
+       </div>
+       <u>Animals</u>
+       <div id="childphotos">
+        <span id="a1"></span>
+        <span id="a2"></span>
+        <span id="a3"></span>
+        </div>
+        </section>
+        
+    </main>
+  </body>
+</html>
